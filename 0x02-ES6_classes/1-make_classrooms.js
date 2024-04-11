@@ -1,4 +1,6 @@
 import ClassRoom from "./0-classroom.js";
 
-const room = new ClassRoom(10);
-console.log(room._maxStudentsSize);
+
+export default function initializeRooms() {
+	return [new ClassRoom(19), new ClassRoom(20), new ClassRoom(34)];
+}
